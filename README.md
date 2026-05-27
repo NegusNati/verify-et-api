@@ -1,5 +1,7 @@
 # Verify.et API Skill
 
+[![skills.sh](https://skills.sh/b/negusnati/verify-et-api)](https://skills.sh/negusnati/verify-et-api)
+
 ![Verify.et: One platform to verify Ethiopian bank transactions](skills/verify-et-api/assets/hero.webp)
 
 A portable Agent Skill for integrating and debugging Verify.et transaction verification flows.
