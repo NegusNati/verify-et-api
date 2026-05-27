@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "top",
+  "groupings": [
+    {
+      "title": "Verify.et",
+      "description": "Transaction verification integration for Ethiopian banks and payment flows.",
+      "skills": ["verify-et-api"]
+    }
+  ]
+}
