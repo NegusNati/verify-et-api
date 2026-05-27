@@ -1,5 +1,7 @@
 # Verify.et API Skill
 
+![Verify.et: One platform to verify Ethiopian bank transactions](verify-et-api/assets/hero.webp)
+
 A portable Agent Skill for integrating and debugging Verify.et transaction verification flows.
 
 The skill is designed for agents helping developers build server-side Verify.et adapters, checkout verification, webhook receivers, polling/SSE status flows, idempotency handling, and bank-specific request validation.
@@ -10,6 +12,8 @@ The skill is designed for agents helping developers build server-side Verify.et 
 verify-et-api/
 |-- verify-et-api/
 |   |-- SKILL.md
+|   |-- assets/
+|   |   `-- hero.webp
 |   |-- references/
 |   |   |-- api-endpoints.md
 |   |   |-- bank-specs.md
