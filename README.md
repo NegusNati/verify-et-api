@@ -1,6 +1,6 @@
 # Verify.et API Skill
 
-![Verify.et: One platform to verify Ethiopian bank transactions](verify-et-api/assets/hero.webp)
+![Verify.et: One platform to verify Ethiopian bank transactions](skills/verify-et-api/assets/hero.webp)
 
 A portable Agent Skill for integrating and debugging Verify.et transaction verification flows.
 
@@ -10,20 +10,21 @@ The skill is designed for agents helping developers build server-side Verify.et 
 
 ```text
 verify-et-api/
-|-- verify-et-api/
-|   |-- SKILL.md
-|   |-- assets/
-|   |   `-- hero.webp
-|   |-- references/
-|   |   |-- api-endpoints.md
-|   |   |-- bank-specs.md
-|   |   `-- error-codes.md
-|   |-- patterns/
-|   |   |-- integration-methods.md
-|   |   `-- webhooks.md
-|   `-- debugging/
-|       |-- common-mistakes.md
-|       `-- production-checklist.md
+|-- skills/
+|   `-- verify-et-api/
+|       |-- SKILL.md
+|       |-- assets/
+|       |   `-- hero.webp
+|       |-- references/
+|       |   |-- api-endpoints.md
+|       |   |-- bank-specs.md
+|       |   `-- error-codes.md
+|       |-- patterns/
+|       |   |-- integration-methods.md
+|       |   `-- webhooks.md
+|       `-- debugging/
+|           |-- common-mistakes.md
+|           `-- production-checklist.md
 `-- LICENSE
 ```
 
@@ -40,7 +41,7 @@ verify-et-api/
 ## Install
 
 ```bash
-npx skills add NegusNati/verify-et-api-skill --skill verify-et-api
+npx skills add NegusNati/verify-et-api
 ```
 
 ## Validation
@@ -48,7 +49,7 @@ npx skills add NegusNati/verify-et-api-skill --skill verify-et-api
 Recommended checks before publishing:
 
 ```bash
-python3 /Users/negusnati/.codex/skills/.system/skill-creator/scripts/quick_validate.py .
+python3 /Users/negusnati/.codex/skills/.system/skill-creator/scripts/quick_validate.py skills/verify-et-api
 ```
 
 Also run a markdown link check from the skill root to ensure every relative file reference resolves.
