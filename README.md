@@ -8,17 +8,18 @@ The skill is designed for agents helping developers build server-side Verify.et 
 
 ```text
 verify-et-api/
-|-- SKILL.md
-|-- references/
-|   |-- api-endpoints.md
-|   |-- bank-specs.md
-|   `-- error-codes.md
-|-- patterns/
-|   |-- integration-methods.md
-|   `-- webhooks.md
-|-- debugging/
-|   |-- common-mistakes.md
-|   `-- production-checklist.md
+|-- verify-et-api/
+|   |-- SKILL.md
+|   |-- references/
+|   |   |-- api-endpoints.md
+|   |   |-- bank-specs.md
+|   |   `-- error-codes.md
+|   |-- patterns/
+|   |   |-- integration-methods.md
+|   |   `-- webhooks.md
+|   `-- debugging/
+|       |-- common-mistakes.md
+|       `-- production-checklist.md
 `-- LICENSE
 ```
 
@@ -31,6 +32,12 @@ verify-et-api/
 - Webhook receiver validation, retries, and idempotent processing
 - Error classification, retry decisions, credits/quota, and rate-limit behavior
 - Production security, logging, and testing checks
+
+## Install
+
+```bash
+npx skills add NegusNati/verify-et-api-skill --skill verify-et-api
+```
 
 ## Validation
 
